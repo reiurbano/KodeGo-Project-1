@@ -40,11 +40,18 @@ footer {
 }
 
 .nav-link:hover,
-.collapse-link:hover {
+.side-link:hover {
     color: #0938a3;
     background-color: ghostwhite;
     font-weight: 700;
+}
+.side-link:hover,
+.round-link:hover {
     border-radius: 1rem;
+}
+
+.collapse-sidenav {
+    font-family: 'Noto Serif', serif;
 }
 
 /*Navbar*/
@@ -206,6 +213,7 @@ footer {
     margin-top: 2rem;
     margin-bottom: 3rem;
 }
+
 .lore-block {
     border: 0.1rem solid;
     border-radius: 0.5rem;
@@ -215,6 +223,7 @@ footer {
     padding: 1rem;
     color: black;
 }
+
 .lore-pane p {
     font-family: 'Noto Serif', serif;
 }
