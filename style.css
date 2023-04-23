@@ -201,4 +201,20 @@ footer {
     background-image: linear-gradient(135deg, #ffcfd6, #cfffef)
 }
 
-/*Media Queries*/
+/*WB*/
+.lore-chunk {
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+}
+.lore-block {
+    border: 0.1rem solid;
+    border-radius: 0.5rem;
+}
+
+.lore-pane {
+    padding: 1rem;
+    color: black;
+}
+.lore-pane p {
+    font-family: 'Noto Serif', serif;
+}
