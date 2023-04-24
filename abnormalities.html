@@ -57,7 +57,7 @@
                     </button>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#topnavbar"
                         aria-controls="topnavbar" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
+                        <i class="fa fa-bars nav-icon"></i>
                     </button>
                     <div class="collapse navbar-collapse justify-content-end" id="topnavbar">
                         <a class="nav-link round-link" href="index.html">Home</a>
@@ -496,6 +496,408 @@
                         </div>
                     </div>
                 </div>
+                <div id="malkuth" class="row g-0 pt-5 justify-content-center">
+                    <div class="floor-nav col-10 nav nav-tabs justify-content-between" id="hs-tab" role="tablist">
+                        <span class="text-center align-self-center ps-3">Floor of History</span>
+                        <button class="nav-link active ms-auto" id="nav-ab-tab-malkuth" data-bs-toggle="tab"
+                            data-bs-target="#ab-tab-malkuth" type="button" role="tab" aria-controls="nav-ab"
+                            aria-selected="true">Abnormality Pages</button>
+                        <button class="nav-link" id="nav-ego-tab-malkuth" data-bs-toggle="tab"
+                            data-bs-target="#ego-tab-malkuth" type="button" role="tab" aria-controls="nav-ego"
+                            aria-selected="false">E.G.O Pages</button>
+                    </div>
+                    <div class="floor-tab col-10 tab-pane fade show active" id="ab-tab-malkuth" role="tabpanel"
+                        aria-labelledby="ab-tab-malkuth" tabindex="0">
+                        <!--Scorched Girl-->
+                        <div id="scorched-girl" class="d-flex flex-wrap justify-content-evenly">
+                            <!--Footfalls-->
+                            <div id="footfalls" class="d-flex flex-wrap justify-content-center">
+                                <div class="ab-card-left">
+                                    <a class="ab-link stretched-link" data-bs-toggle="collapse"
+                                        data-bs-target="#ff-right" aria-expanded="false">
+                                        <img class="img-fluid" src="images/abnormalities/negative_left_2.png">
+                                    </a>
+                                    <h6 class="ab-title">Footfalls</h6>
+                                    <div class="ab-overflow-img">
+                                        <img class="ab-img"
+                                            src="images/abnormalities/abnormality_pages/floor_of_history/scorched_girl/footfalls.png">
+                                    </div>
+                                    <div class="ab-overflow-text">
+                                        <p class="ab-text-left">I am coming to you. You, who will be reduced to ash like
+                                            me.</p>
+                                    </div>
+                                </div>
+                                <div id="ff-right" class="ab-card-right collapse collapse-horizontal">
+                                    <img class="img-fluid ab-frame" src="images/abnormalities/negative_right.png">
+                                    <p class="ab-text-right">[All Allies] When a librarian's HP is at 20% or lower, deal
+                                        30% of the target's Max HP as damage (Max. 36) and inflict 1-3 Burn upon
+                                        approaching them, then die.</p>
+                                </div>
+                            </div>
+                            <!--Ashes-->
+                            <div id="ashes" class="d-flex flex-wrap justify-content-center">
+                                <div class="ab-card-left">
+                                    <a class="ab-link stretched-link" data-bs-toggle="collapse"
+                                        data-bs-target="#ash-right" aria-expanded="false">
+                                        <img class="img-fluid" src="images/abnormalities/positive_left_1.png">
+                                    </a>
+                                    <h6 class="ab-title">Ashes</h6>
+                                    <div class="ab-overflow-img">
+                                        <img class="ab-img"
+                                            src="images/abnormalities/abnormality_pages/floor_of_history/scorched_girl/ashes.png">
+                                    </div>
+                                    <div class="ab-overflow-text">
+                                        <p class="ab-text-left">“The charred body represents the child's crumbled hope,
+                                            while the ever blazing flame represents the obsession for affection.”</p>
+                                    </div>
+                                </div>
+                                <div id="ash-right" class="ab-card-right collapse collapse-horizontal">
+                                    <img class="img-fluid ab-frame" src="images/abnormalities/positive_right.png">
+                                    <p class="ab-text-right">[Single Ally] When hit, inflict 1-3 Burn to the attacker,
+                                        and gain a buff at a 40% chance next Scene: 'Offensive dice inflict 1 Burn on
+                                        hit' (Does not stack).</p>
+                                </div>
+                            </div>
+                            <!--Matchlight-->
+                            <div id="matchlight" class="d-flex flex-wrap justify-content-center">
+                                <div class="ab-card-left">
+                                    <a class="ab-link stretched-link" data-bs-toggle="collapse"
+                                        data-bs-target="#ml-right" aria-expanded="false">
+                                        <img class="img-fluid" src="images/abnormalities/negative_left_1.png">
+                                    </a>
+                                    <h6 class="ab-title">Matchlight</h6>
+                                    <div class="ab-overflow-img">
+                                        <img class="ab-img"
+                                            src="images/abnormalities/abnormality_pages/floor_of_history/scorched_girl/matchlight.png">
+                                    </div>
+                                    <div class="ab-overflow-text">
+                                        <p class="ab-text-left">“Well, she's like a ticking time bomb. No one can tell
+                                            if she's in a good mood or not.”</p>
+                                    </div>
+                                </div>
+                                <div id="ml-right" class="ab-card-right collapse collapse-horizontal">
+                                    <img class="img-fluid ab-frame" src="images/abnormalities/negative_right.png">
+                                    <p class="ab-text-right">[Single Ally] The first two Combat Pages the librarian uses
+                                        after this Abnormality page is selected gain the 'Matchlight' status (Excludes
+                                        [On Play] pages). Whenever the librarian uses a page with 'Matchlight', gain 1
+                                        'Ember'.
+                                        Pages with 'Matchlight' become stronger based on the amount of Ember; however,
+                                        they have a 25% chance to damage the user if Ember is at 4 or higher.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!--Happy Teddy Bear-->
+                        <div id="happy-teddy-bear" class="d-flex flex-wrap justify-content-evenly">
+                            <!--Nostalgic Embrace of the Old Days-->
+                            <div id="nostalgic-embrace-of-the-old-days" class="d-flex flex-wrap justify-content-center">
+                                <div class="ab-card-left">
+                                    <a class="ab-link stretched-link" data-bs-toggle="collapse"
+                                        data-bs-target="#ne-right" aria-expanded="false">
+                                        <img class="img-fluid" src="images/abnormalities/negative_left_1.png">
+                                    </a>
+                                    <h6 class="ab-title">Nostalgic Embrace of the Old Days</h6>
+                                    <div class="ab-overflow-img">
+                                        <img class="ab-img"
+                                            src="images/abnormalities/abnormality_pages/floor_of_history/happy_teddy_bear/nostalgic_embrace_of_the_old_days.png">
+                                    </div>
+                                    <div class="ab-overflow-text">
+                                        <p class="ab-text-left">Teddy was hugging someone tightly. Teddy loved hugs. But
+                                            something was odd.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div id="ne-right" class="ab-card-right collapse collapse-horizontal">
+                                    <img class="img-fluid ab-frame" src="images/abnormalities/negative_right.png">
+                                    <p class="ab-text-right">[Single Ally] Upon winning a clash, deal bonus Stagger
+                                        damage equal to the dice's value at a 20% chance.
+                                        Clashing against the same target multiple times will increase the likelihood.
+                                    </p>
+                                </div>
+                            </div>
+                            <!--Happy Memories-->
+                            <div id="happy-memories" class="d-flex flex-wrap justify-content-center">
+                                <div class="ab-card-left">
+                                    <a class="ab-link stretched-link" data-bs-toggle="collapse"
+                                        data-bs-target="#hm-right" aria-expanded="false">
+                                        <img class="img-fluid" src="images/abnormalities/positive_left_1.png">
+                                    </a>
+                                    <h6 class="ab-title">Happy Memories</h6>
+                                    <div class="ab-overflow-img">
+                                        <img class="ab-img"
+                                            src="images/abnormalities/abnormality_pages/floor_of_history/happy_teddy_bear/happy_memories.png">
+                                    </div>
+                                    <div class="ab-overflow-text">
+                                        <p class="ab-text-left">But, you see, Teddy never wanted to be separate from its
+                                            owner ever again.</p>
+                                    </div>
+                                </div>
+                                <div id="hm-right" class="ab-card-right collapse collapse-horizontal">
+                                    <img class="img-fluid ab-frame" src="images/abnormalities/positive_right.png">
+                                    <p class="ab-text-right">[Single Ally] The Combat Page with the highest Cost in hand
+                                        is chosen (Excludes [On Play] pages). Using pages with the same name will
+                                        decrease the Cost of every copy of that page the character currently owns by 1.
+                                    </p>
+                                </div>
+                            </div>
+                            <!--Display of Affection-->
+                            <div id="display-of-affection" class="d-flex flex-wrap justify-content-center">
+                                <div class="ab-card-left">
+                                    <a class="ab-link stretched-link" data-bs-toggle="collapse"
+                                        data-bs-target="#da-right" aria-expanded="false">
+                                        <img class="img-fluid" src="images/abnormalities/negative_left_1.png">
+                                    </a>
+                                    <h6 class="ab-title">Display of Affection</h6>
+                                    <div class="ab-overflow-img">
+                                        <img class="ab-img"
+                                            src="images/abnormalities/abnormality_pages/floor_of_history/happy_teddy_bear/display_of_affection.png">
+                                    </div>
+                                    <div class="ab-overflow-text">
+                                        <p class="ab-text-left">Its memories began with a warm hug.</p>
+                                    </div>
+                                </div>
+                                <div id="da-right" class="ab-card-right collapse collapse-horizontal">
+                                    <img class="img-fluid ab-frame" src="images/abnormalities/negative_right.png">
+                                    <p class="ab-text-right">[Single Ally] All dice gain 1-2 Power in a clash.
+                                        All dice lose 1-2 Power in a one-sided attack.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!--Fairy Festival-->
+                        <div id="fairy-festival" class="d-flex flex-wrap justify-content-evenly">
+                            <!--The Faries Care-->
+                            <div id="fairies-care" class="d-flex flex-wrap justify-content-center">
+                                <div class="ab-card-left">
+                                    <a class="ab-link stretched-link" data-bs-toggle="collapse"
+                                        data-bs-target="#fc-right" aria-expanded="false">
+                                        <img class="img-fluid" src="images/abnormalities/negative_left_1.png">
+                                    </a>
+                                    <h6 class="ab-title">The Fairies Care</h6>
+                                    <div class="ab-overflow-img">
+                                        <img class="ab-img"
+                                            src="images/abnormalities/abnormality_pages/floor_of_history/fairy_carnival/the_fairies_care.png">
+                                    </div>
+                                    <div class="ab-overflow-text">
+                                        <p class="ab-text-left">The fairies protect our employees. Everything will be
+                                            peaceful while you are under the fairies' care.</p>
+                                    </div>
+                                </div>
+                                <div id="fc-right" class="ab-card-right collapse collapse-horizontal">
+                                    <img class="img-fluid ab-frame" src="images/abnormalities/negative_right.png">
+                                    <p class="ab-text-right">[Single Ally] For three Scenes, recover 15% of Max HP (Max.
+                                        18) at the end of the Scene.
+                                        If the librarian is hit 3 times while this effect is active, lose 25% of current
+                                        HP (Max. 30) and lose this effect.</p>
+                                </div>
+                            </div>
+                            <!--Gluttony-->
+                            <div id="gluttony" class="d-flex flex-wrap justify-content-center">
+                                <div class="ab-card-left">
+                                    <a class="ab-link stretched-link" data-bs-toggle="collapse"
+                                        data-bs-target="#glt-right" aria-expanded="false">
+                                        <img class="img-fluid" src="images/abnormalities/positive_left_2.png">
+                                    </a>
+                                    <h6 class="ab-title">Gluttony</h6>
+                                    <div class="ab-overflow-img">
+                                        <img class="ab-img"
+                                            src="images/abnormalities/abnormality_pages/floor_of_history/fairy_carnival/gluttony.png">
+                                    </div>
+                                    <div class="ab-overflow-text">
+                                        <p class="ab-text-left">The fairies were no more than carnivorous monsters, and
+                                            their “protection” was their method to keep the meat fresh.</p>
+                                    </div>
+                                </div>
+                                <div id="glt-right" class="ab-card-right collapse collapse-horizontal">
+                                    <img class="img-fluid ab-frame" src="images/abnormalities/positive_right.png">
+                                    <p class="ab-text-right">[Single Ally] When attacking a target who already took
+                                        damage on the same Scene, deal +1-3 damage and recover 2-5 HP on hit.</p>
+                                </div>
+                            </div>
+                            <!--Predation-->
+                            <div id="predation" class="d-flex flex-wrap justify-content-center">
+                                <div class="ab-card-left">
+                                    <a class="ab-link stretched-link" data-bs-toggle="collapse"
+                                        data-bs-target="#prd-right" aria-expanded="false">
+                                        <img class="img-fluid" src="images/abnormalities/negative_left_2.png">
+                                    </a>
+                                    <h6 class="ab-title">Predation</h6>
+                                    <div class="ab-overflow-img">
+                                        <img class="ab-img"
+                                            src="images/abnormalities/abnormality_pages/floor_of_history/fairy_carnival/predation.png">
+                                    </div>
+                                    <div class="ab-overflow-text">
+                                        <p class="ab-text-left">His stomach and face were ripped off, and his eyeballs
+                                            and organs were damaged as if they were eaten by something. Meanwhile, the
+                                            fairies had someone's blood and flesh smeared all over their mouths.</p>
+                                    </div>
+                                </div>
+                                <div id="prd-right" class="ab-card-right collapse collapse-horizontal">
+                                    <img class="img-fluid ab-frame" src="images/abnormalities/negative_right.png">
+                                    <p class="ab-text-right">[Single Ally] All allies except the selected librarian lose
+                                        10 HP.
+                                        The librarian recovers as much HP as others lost from this effect, and gains 3
+                                        Strength and 3 Haste this Scene.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!--Queen Bee-->
+                        <div id="queen-bee" class="d-flex flex-wrap justify-content-evenly">
+                            <!--Spore-->
+                            <div id="spores" class="d-flex flex-wrap justify-content-center">
+                                <div class="ab-card-left">
+                                    <a class="ab-link stretched-link" data-bs-toggle="collapse"
+                                        data-bs-target="#spr-right" aria-expanded="false">
+                                        <img class="img-fluid" src="images/abnormalities/positive_left_2.png">
+                                    </a>
+                                    <h6 class="ab-title">Spores</h6>
+                                    <div class="ab-overflow-img">
+                                        <img class="ab-img"
+                                            src="images/abnormalities/abnormality_pages/floor_of_history/queen_bee/spores.png">
+                                    </div>
+                                    <div class="ab-overflow-text">
+                                        <p class="ab-text-left">It has been confirmed that the spores carry drone eggs
+                                            that hatch inside a living host.</p>
+                                    </div>
+                                </div>
+                                <div id="spr-right" class="ab-card-right collapse collapse-horizontal">
+                                    <img class="img-fluid ab-frame" src="images/abnormalities/positive_right.png">
+                                    <p class="ab-text-right">[Single Ally] When hit, inflict 1-3 Burn and 1-3 Bleed to
+                                        the attacker next Scene.</p>
+                                </div>
+                            </div>
+                            <!--Worker Bee-->
+                            <div id="worker-bee" class="d-flex flex-wrap justify-content-center">
+                                <div class="ab-card-left">
+                                    <a class="ab-link stretched-link" data-bs-toggle="collapse"
+                                        data-bs-target="#wb-right" aria-expanded="false">
+                                        <img class="img-fluid" src="images/abnormalities/negative_left_2.png">
+                                    </a>
+                                    <h6 class="ab-title">Worker Bee</h6>
+                                    <div class="ab-overflow-img">
+                                        <img class="ab-img"
+                                            src="images/abnormalities/abnormality_pages/floor_of_history/queen_bee/worker_bee.png">
+                                    </div>
+                                    <div class="ab-overflow-text">
+                                        <p class="ab-text-left">They show only two forms of behavior: Delivering
+                                            nutrients to the Queen, and proliferating.</p>
+                                    </div>
+                                </div>
+                                <div id="wb-right" class="ab-card-right collapse collapse-horizontal">
+                                    <img class="img-fluid ab-frame" src="images/abnormalities/negative_right.png">
+                                    <p class="ab-text-right">[Single Ally] The enemy who dealt the most damage to the
+                                        selected librarian is marked. Other allies deal 2-4 more damage to the marked
+                                        foe with their attacks.</p>
+                                </div>
+                            </div>
+                            <!--Loyalty-->
+                            <div id="loyalty" class="d-flex flex-wrap justify-content-center">
+                                <div class="ab-card-left">
+                                    <a class="ab-link stretched-link" data-bs-toggle="collapse"
+                                        data-bs-target="#lyt-right" aria-expanded="false">
+                                        <img class="img-fluid" src="images/abnormalities/negative_left_3.png">
+                                    </a>
+                                    <h6 class="ab-title">Loyalty</h6>
+                                    <div class="ab-overflow-img">
+                                        <img class="ab-img"
+                                            src="images/abnormalities/abnormality_pages/floor_of_history/queen_bee/loyalty.png">
+                                    </div>
+                                    <div class="ab-overflow-text">
+                                        <p class="ab-text-left">The loyalty of bees is a naturally developed instinct.
+                                            If we discover a way to draw forth that instinct, many things could change.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div id="lyt-right" class="ab-card-right collapse collapse-horizontal">
+                                    <img class="img-fluid ab-frame" src="images/abnormalities/negative_right.png">
+                                    <p class="ab-text-right">[Single Ally] At the start of the Scene, all allies gain
+                                        Strength based on the amount of damage the selected librarian received on the
+                                        previous Scene.
+                                        (1 Strength per 5 damage)
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <!--Snow White's Apple-->
+                        <div id="snow-whites-apple" class="d-flex flex-wrap justify-content-evenly">
+                            <!--Vines-->
+                            <div id="hammer-and-nail" class="d-flex flex-wrap justify-content-center">
+                                <div class="ab-card-left">
+                                    <a class="ab-link stretched-link" data-bs-toggle="collapse"
+                                        data-bs-target="#vin-right" aria-expanded="false">
+                                        <img class="img-fluid" src="images/abnormalities/positive_left_2.png">
+                                    </a>
+                                    <h6 class="ab-title">Vines</h6>
+                                    <div class="ab-overflow-img">
+                                        <img class="ab-img"
+                                            src="images/abnormalities/abnormality_pages/floor_of_history/snow_white/vines.png">
+                                    </div>
+                                    <div class="ab-overflow-text">
+                                        <p class="ab-text-left">One day, a branch grew from it. The leaves and branches
+                                            were already withered and dry, but it continued to grow.</p>
+                                    </div>
+                                </div>
+                                <div id="vin-right" class="ab-card-right collapse collapse-horizontal">
+                                    <img class="img-fluid ab-frame" src="images/abnormalities/positive_right.png">
+                                    <p class="ab-text-right">[Single Ally] For the rest of the Act, inflict 6 Bind to a
+                                        random enemy at the start of the Scene.
+                                        Pierce dice gain 1-2 Power when attacking that enemy.</p>
+                                </div>
+                            </div>
+                            <!--Barrier of Thorns-->
+                            <div id="barrier-of-thorns" class="d-flex flex-wrap justify-content-center">
+                                <div class="ab-card-left">
+                                    <a class="ab-link stretched-link" data-bs-toggle="collapse"
+                                        data-bs-target="#bth-right" aria-expanded="false">
+                                        <img class="img-fluid" src="images/abnormalities/positive_left_3.png">
+                                    </a>
+                                    <h6 class="ab-title">Barrier of Thorns</h6>
+                                    <div class="ab-overflow-img">
+                                        <img class="ab-img"
+                                            src="images/abnormalities/abnormality_pages/floor_of_history/snow_white/barrier_of_thorns.png">
+                                    </div>
+                                    <div class="ab-overflow-text">
+                                        <p class="ab-text-left">The apple that dropped from Snow White's hand after a
+                                            single bite could never be happy. The apple, full of loneliness and hatred
+                                            towards the princess, waited for the day it would rot away and return to the
+                                            earth.</p>
+                                    </div>
+                                </div>
+                                <div id="bth-right" class="ab-card-right collapse collapse-horizontal">
+                                    <img class="img-fluid ab-frame" src="images/abnormalities/positive_right.png">
+                                    <p class="ab-text-right">[Single Ally] When hit, inflict 2-8 damage and 1-3 Bind to
+                                        the attacker.
+                                        If 3 Bind was inflicted at once, recover HP equal to the amount of damage dealt
+                                        with this effect.
+                                    </p>
+                                </div>
+                            </div>
+                            <!--Malice-->
+                            <div id="malice" class="d-flex flex-wrap justify-content-center">
+                                <div class="ab-card-left">
+                                    <a class="ab-link stretched-link" data-bs-toggle="collapse"
+                                        data-bs-target="#mlc-right" aria-expanded="false">
+                                        <img class="img-fluid" src="images/abnormalities/positive_left_3.png">
+                                    </a>
+                                    <h6 class="ab-title">Malice</h6>
+                                    <div class="ab-overflow-img">
+                                        <img class="ab-img"
+                                            src="images/abnormalities/abnormality_pages/floor_of_history/snow_white/malice.png">
+                                    </div>
+                                    <div class="ab-overflow-text">
+                                        <p class="ab-text-left">The inherent malice caused all life to crumble as soon
+                                            as it bloomed.</p>
+                                    </div>
+                                </div>
+                                <div id="mlc-right" class="ab-card-right collapse collapse-horizontal">
+                                    <img class="img-fluid ab-frame" src="images/abnormalities/positive_right.png">
+                                    <p class="ab-text-right">[Single Ally] At the start of this Scene, all enemies take
+                                        damage inversely proportional to the amount of HP the librarian has left. (Min.
+                                        5, Max. 30; Less HP is more DMG)
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </main>
             <!--Footer-->
             <footer id="footer" class="row g-0 bg-black justify-content-evenly ps-5 pt-4 pb-2 pe-4">
@@ -519,7 +921,8 @@
                 <div class="col-sm">
                     <h6>Community Links</h6>
                     <nav class="nav flex-column">
-                        <a class="nav-link round-link" href="https://store.steampowered.com/app/1256670/Library_Of_Ruina/"><i
+                        <a class="nav-link round-link"
+                            href="https://store.steampowered.com/app/1256670/Library_Of_Ruina/"><i
                                 class="fa fa-steam pe-2"></i>Steam</a>
                         <a class="nav-link round-link" href="https://www.youtube.com/@ProjectMoonOfficial"><i
                                 class="fa fa-youtube pe-2"></i>Youtube</a>
